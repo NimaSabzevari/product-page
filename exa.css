@@ -1,0 +1,116 @@
+.container{
+width: 1216px;
+margin-right: auto;
+margin-left: auto;
+margin-top: 50px;
+}
+.section-head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+
+}
+.section-title{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.section-title-icon{
+    width: 22px;
+    height: 22px;
+    color: dodgerblue;
+}
+.section-link{
+    color: dodgerblue;
+    text-decoration: none;
+}
+.section-link:hover{
+    color: darkcyan;
+    background-color: darkgrey;
+    font-weight: bolder;
+   height: 30px;
+   cursor: cell;
+   box-shadow: 0 0 20px red;
+}
+.row{
+    display: flex;
+    gap: 34px;
+}
+.product{
+    width: 100%;
+    box-shadow: 3px 0px 15px 2px rgba(0, 0, 0, 1);
+    padding: 24px;
+    background-color: #fff;
+}
+.product-image{
+    width: 100%;
+}
+.product-name{
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 14px;
+    line-height: 1.6;
+    height: 68px;
+}
+.product-link{
+    text-decoration: none;
+    color: dimgrey;
+
+}
+.product-offer{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    margin-top: 12px;
+    justify-content: start;
+    
+}
+.product-offer-percent{
+    background-color: bisque;
+    color: dodgerblue;
+    font-weight: bold;
+    padding: 2px 4px;
+    display: inline-block;
+    border-radius: 6px;
+}
+.product-offer-price{
+    text-decoration: line-through;
+    color: crimson;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+    font-weight: bolder;
+}
+.product-price{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.product-price-number{
+    font-weight: bold;
+    font-size: 18px;
+    color: green;
+}
+.product-price-unit{
+    font-size: 14px;
+    font-weight: bolder;
+    font-size: larger;
+}
+.product-rating{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.product-rating-number{
+    font-size: 14px;
+color: rgb(48, 39, 39);
+}
+.product-rating-icon{
+    width: 20px;
+    height: 20px;
+    color: gold;
+}
